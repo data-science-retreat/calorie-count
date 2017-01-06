@@ -26,7 +26,7 @@ object FirstTry extends App {
   val outputNum = 10
   val batchSize = 64
   val rngSeed = 123
-  val numEpochs = 15
+  val numEpochs = 10
   val rate = 0.0015
 
   //Get the DataSetIterators:

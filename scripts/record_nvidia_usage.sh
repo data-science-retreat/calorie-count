@@ -1,4 +1,4 @@
-#!/usr/bin/env/ bash
+#!/usr/bin/env bash
 
 # How many seconds to wait
 INTERVAL=$1
@@ -11,7 +11,7 @@ fi
 
 while true
 do
-    nvidia-smi | grep % | cut -c 62-63 >> $OUTPUT_FILE
+    nvidia-smi | grep % | cut -c 62-63 >> "$OUTPUT_FILE"
     sleep $INTERVAL
 done
 
